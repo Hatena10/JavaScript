@@ -9,14 +9,17 @@
     </style>
 </head>
 <body>
-    
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js" integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-        //31번 파일과 같은 일을 하도록
-        //삼항연산자 사용
-        let num = prompt("수를 입력해주세요",0);
-        let message= (num % 2) ? "홀수입니다.":"짝수입니다.";
+    // 31번 파일과 같은 일을 하도록
+    // 삼항연산자 사용해서...
+
+    let num = Number(prompt("수를 입력해주세요", 0));
+
+    let message = (num % 2) ? "홀수입니다." : "짝수입니다.";
+
+    console.log(message);
 
     </script>
 </body>

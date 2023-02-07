@@ -9,41 +9,43 @@
     </style>
 </head>
 <body>
-    
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js" integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-        let a= 3;
-        console.log(a);
-        a=5;
-        console.log(a);
-        a=0.111;
-        console.log(a);
-        //-(2^53-1)~(2^53-1)의 정수
-        a= 9007199254740991;//최대표현 가능 정수
-        console.log(a);
-        
-        let b= a+1;
-        let c= a+2;
-        console.log(b);
-        console.log(c);
-        
-        //Infinity 
-        let d= 1/2;
-        console.log(d);
+    let a = 3;
+    console.log(a);
 
-        let e= 1/0;
-        console.log(e);
+    a = 5;
+    console.log(a);
 
-        let f= -1/0; //Infinity
-        console.log(f);
+    a = 0.111;
+    console.log(a);
 
-        //NaN(Not a Number)
-        let g = 15 % 2;// 1
-        console.log(g);
+    // -(2^53 - 1) ~ (2^53 -1) 의 정수만 가능
+    a = 9007199254740991; // 최대표현 가능 정수
+    console.log(a);
 
-        let h = 15 % 0;// NaN
-        console.log(h);
+    let b = a + 1;
+    let c = a + 2;
+
+    console.log(b);
+    console.log(c);
+
+    // Infinity
+    let d = 1 / 2;
+    console.log(d);
+
+    let e = 1 / 0; // Infinity
+    console.log(e);
+    let f = -1 / 0; // -Infinity
+    console.log(f);
+
+    // NaN (Not A Number)
+    let g = 15 % 2; // 1
+    console.log(g);
+
+    let h = 15 % 0; // NaN
+    console.log(h);
 
     </script>
 </body>

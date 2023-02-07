@@ -9,38 +9,39 @@
     </style>
 </head>
 <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js" integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-        //string(문자열)
-    let a ="hello"; //따옴표로 문자열 표현
-    let b ='hello'; // 작은 따옴표 가능
-        console.log(a,b);
+    // string (문자열)
+    let a = "hello"; // 따옴표로 문자열 표현
+    let b = 'hello'; // 작은 따옴표 가능
 
-    let c ="I'm ironman"; //큰 따옴표 내에 작은 따옴표 작성 가능
-    let d ='I am "Ironman"';//작은 따옴표 내에 큰 따옴표 작성 가능
-        console.log(c);
-        console.log(d);
-    
+    console.log(a, b);
+
+    let c = "I'm ironman"; // 큰따옴표 내에 작은따옴표 작성가능
+    let d = 'I am "ironman"';// 작은따옴표 내에 큰다옴표 사용가능
+    console.log(c);
+    console.log(d);
+
     let e = "I am \"ironman\""; // \로 특수문자 작성가능
-    let f = "I am \'ironman\'"
-        console.log(e);
-        console.log(f); 
-    let g = "I am \tironman"; // \t = tab
-        console.log(g); 
-    let h = "I am \nironman"; // \n = 새로운 줄
-        console.log(h);
-        /* 
-        let i= = "I am"
-        ironman";
-        console.log(i);
-        */
-    
-    let i = "abc\\nef" // \\로 \ 표현
+    let f = 'I am \'ironman\''; 
+    console.log(e);
+    console.log(f);
+
+    let g = "I am \tironman"; // \t 탭
+    console.log(g);
+
+    let h = "I am \nironman"; // \n 새로운 줄
+    console.log(h);
+
+    /*
+    let i = "I am 
+    ironman";
     console.log(i);
-    
+    */
 
-
+    let j = "abc\\nef"; // \\로 \표현
+    console.log(j);
     </script>
-    
 </body>
 </html>

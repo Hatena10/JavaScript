@@ -9,32 +9,37 @@
     </style>
 </head>
 <body>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js" integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-        //object: 여러 값(속성 property)를 갖는 datatype
-        let name = "john";
-        let age= 30;
-        //a객체는 name 속성과, age 속성을 갖는다.
-        let a={name:"john",age:30};
-        console.log(name);
-        console.log(age);
+    // object(객체) : 여러 값(속성 property)를 갖는 data type
+    let name = "john"; // 하나의 값
+    let age = 30; // 하나의 값
 
-        console.log(a.name);// jane
-        console.log(a.age); // 40
+    // a객체는 name 속성과, age 속성을 갖는다.
+    let a = {name: "jane", age: 40}; // 여러 값
 
-        name="donald";
-        console.log(name);
+    console.log(name); // john
+    console.log(age); // 30
 
-        a.name="trump";
-        console.log(a.name);
-        a.age=50;
-        console.log(a.age); //50
+    console.log(a.name); // jane
+    console.log(a.age); // 40
 
-        a.address="Seoul";
-        console.log(a.address);
+    name = "donald";
+    console.log(name); // donald
 
-        console.log(a.birth); //undefined
+    a.name = "trump";
+    console.log(a.name); // trump
+
+    a.age = 50;
+    console.log(a.age); // 50
+
+    // 새 속성(property) 추가
+    a.address = "seoul";
+    console.log(a.address);
+
+    console.log(a.birth); // undefined
+
     </script>
 </body>
 </html>
